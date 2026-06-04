@@ -133,7 +133,7 @@ function App() {
       <div className="kontak mt-32 sm:p-10 p-0" id="kontak">
         <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000">Kontak</h1>
         <p className="text-base/loose text-center opacity-50 mb-8" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Mari terhubung dengan saya.</p>
-        <form action="https://formsubmit.co/farelltimothy@gmail.com" method="POST" className="w-full max-w-lg p-6 md:p-10 bg-zinc-800 p-10 w-fit mx-auto rounded-md" autoComplete="off" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+        <form action="https://formsubmit.co/farelltimothy@gmail.com" method="POST" className="w-full max-w-lg p-6 md:p-10 bg-zinc-800 p-10 w-fit mx-auto rounded-md" autoComplete="off" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true">
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-2">
               <label className="font-semibold">Nama Lengkap</label>
