@@ -17,11 +17,12 @@ AOS.init();
 
 
 createRoot(document.getElementById('root')).render(
+      
   <StrictMode>
     <div className="container mx-auto px-4">
       <PreLoader/>
       <Navbar />
-      <App />
+      <App/>
       <Footer />
     </div>
   </StrictMode>,

@@ -104,7 +104,7 @@ function App() {
       {/* tentang */}
 
       {/* proyek */}
-      <div className="proyek mt-32 py-10" id="proyek" pointer cursor>
+      <div className="proyek mt-32 py-10 cursor-pointer" id="proyek">
             <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Proyek</h1>
             <p className="text-base/loose text-center opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">Berikut ini beberapa proyek yang telah saya kerjakan.</p>
             <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
@@ -133,7 +133,7 @@ function App() {
       <div className="kontak mt-32 sm:p-10 p-0" id="kontak">
         <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000">Kontak</h1>
         <p className="text-base/loose text-center opacity-50 mb-8" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Mari terhubung dengan saya.</p>
-        <form action="https://formsubmit.co/farelltimothy@gmail.com" method="POST" className="bg-zinc-800 p-10 w-fit mx-auto rounded-md" autoComplete="off" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+        <form action="https://formsubmit.co/farelltimothy@gmail.com" method="POST" className="w-full max-w-lg p-6 md:p-10 bg-zinc-800 p-10 w-fit mx-auto rounded-md" autoComplete="off" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-2">
               <label className="font-semibold">Nama Lengkap</label>
