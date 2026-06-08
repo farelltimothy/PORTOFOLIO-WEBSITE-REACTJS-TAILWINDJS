@@ -39,8 +39,7 @@ function App() {
             <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" loading="lazy"/>
             <q>Kode yang indah, lahir dari ketekunan. 😊</q>
             </div>
-            <h1 className="text-5xl/tight font-bold mb-6"> Hi, saya <span color="#000"
- font-extrabold">Farell Timothy</span></h1>
+            <h1 className="text-5xl/tight font-bold mb-6"> Hi, saya <span font-extrabold">Farell Timothy</span></h1>
             <p className="text-base/loose mb-6 opacity-50">Saya adalah seorang Programming dan Designer, terutama fokus pada pengembangan web dan desain antarmuka. Ketertarikan
               pada bidang ini sudah berlangsung lebih dari 4 tahun untuk semua bidang
                </p>
